@@ -96,6 +96,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -114,6 +117,36 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Adobe_Photoshop_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Check_File.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Code.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_EXE.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Microsoft_Word_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Remove_Key.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Windows_XP.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Windows8.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Windows8_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Windows8_3.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
